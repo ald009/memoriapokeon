@@ -923,8 +923,17 @@ let fajlnevek = [
             kepek[i2][j2] = fajlnevek[r];
             document.getElementById("k"+i1+j1).firstChild.src = "kepek/" + fajlnevek[r];
             document.getElementById("k"+i2+j2).firstChild.src = "kepek/" + fajlnevek[r];
+            document.getElementById("k"+i1+j1).firstChild.style.display = "none";
+            document.getElementById("k"+i2+j2).firstChild.style.display = "none";
+
             kitoltve += 2;
         }
+
+
+    }
+
+    function lepes(kartya){
+        kartya.firstChild.style.display = "block";
     }
 
 
