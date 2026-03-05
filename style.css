@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(194, 35, 35);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+#palya{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 845px;
+    margin: 0 auto;
+    
+
+}
+.kartya{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    margin:0px;
+    padding: 0px;
+}
+
+.kartya:hover{
+    background-color: rgb(155, 155, 155);
+}
+
